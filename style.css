@@ -80,17 +80,36 @@ a {
     background-color: #DFD3C3;
 }
 
-.title {
+.pictures-title {
     text-align: center;
     background-color: #DFD3C3;
     margin: 0;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .quote {
     text-align: center;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 .attrib {
     text-align: end;
     margin-left: 500px;
+    font-size: 16px;
+}
+
+.welcome-text {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.welcome-message {
+    font-size: 18px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
 }
