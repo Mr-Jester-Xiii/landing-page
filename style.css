@@ -1,3 +1,45 @@
+body {
+    padding: 20px;
+}
+
 img {
     max-height: 500px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one {
+    display: flex;
+}
+
+.two {
+    display: flex;
+}
+
+.three {
+    display: flex;
+}
+
+.four {
+    display: flex;
+}
+
+.footer {
+    text-align: center;
+}
+
+.directory {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navlink {
+    padding: 20px;
 }
