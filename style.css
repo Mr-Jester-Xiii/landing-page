@@ -3,7 +3,7 @@ body {
 }
 
 img {
-    max-height: 500px;
+    max-height: 300px;
 }
 
 .header {
@@ -42,4 +42,12 @@ img {
 
 .navlink {
     padding: 20px;
+}
+
+.imagecard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 16px;
+    text-align: center;
 }
