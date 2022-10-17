@@ -40,7 +40,8 @@ img {
 .four {
     display: flex;
     padding: 16px 300px;
-    background-color: #7D6E83;
+    background-color: #D0B8A8;
+    justify-content: center;
 }
 
 .footer {
@@ -86,12 +87,14 @@ a {
     margin: 0;
     font-size: 32px;
     font-weight: bold;
+    padding: 16px;
 }
 
 .quote {
     text-align: center;
     font-size: 26px;
     font-weight: bold;
+    padding: 50px;
 }
 
 .attrib {
@@ -112,4 +115,48 @@ a {
 .title {
     font-size: 24px;
     font-weight: bold;
+}
+
+.modal-message {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-message {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.click-the-button {
+    font-size: 18px;
+
+}
+
+.modal-button {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #635769;
+    font-size: 18px;
+    padding: 14px 40px;
+    height: fit-content;
+    border-radius: 12px;
+    border: 2px #381d32;
+    
+
+}
+
+.modal {
+    display: flex;
+    background: white;
+    width: 560px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
 }
